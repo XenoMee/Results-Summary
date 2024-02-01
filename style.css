@@ -177,6 +177,10 @@ body {
   background-color: aquamarine;
 }
 
+.summary-item svg {
+  stroke: red;
+}
+
 /* Utility classes */
 .grid-flow {
   display: grid;
@@ -186,4 +190,11 @@ body {
 
 .grid-flow[data-spacing="large"] {
   gap: 2rem;
+}
+
+.flex-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
 }
