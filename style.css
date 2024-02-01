@@ -167,14 +167,14 @@ body {
   padding: 0;
 }
 
-/* .summary-item {
+.summary-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-radius: 0.5rem;
   padding: 1rem;
   background-color: aquamarine;
-} */
+}
 
 /* Utility classes */
 .grid-flow {
