@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "HankenGrotesk";
+  font-display: swap;
+  font-weight: 100 900;
+  src: url("./assets/fonts/HankenGrotesk-VariableFont_wght.ttf")
+    format(truetype);
+}
+
 :root {
   /* Colors */
   --clr-primary-400: hsl(252, 100%, 67%);
