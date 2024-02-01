@@ -101,8 +101,8 @@ body {
   background-color: var(--clr-neutral-700);
   color: var(--clr-neutral-100);
   padding: 1rem 2rem;
-  /* line-height: 1;
-  border-radius: 2rem;
+  line-height: 1;
+  /* border-radius: 2rem;
   border: none;
   cursor: pointer; */
 }
