@@ -189,6 +189,15 @@ body {
 .summary-item[data-item-type="accent-1"] {
   --item-color: var(--clr-accent-1);
 }
+.summary-item[data-item-type="accent-2"] {
+  --item-color: var(--clr-accent-2);
+}
+.summary-item[data-item-type="accent-3"] {
+  --item-color: var(--clr-accent-3);
+}
+.summary-item[data-item-type="accent-4"] {
+  --item-color: var(--clr-accent-4);
+}
 
 /* Utility classes */
 .grid-flow {
