@@ -126,6 +126,11 @@ body {
   --content-padding: 2.5rem;
 }
 
+.results,
+.summary {
+  padding: var(--content-padding);
+}
+
 .results {
   background: var(--gradient-primary);
   color: hsl(var(--clr-neutral-hsl-100), 0.7);
