@@ -1,0 +1,19 @@
+:root {
+  /* Colors */
+  --clr-primary-400: hsl(252, 100%, 67%);
+  --clr-primary-500: hsla(256, 72%, 46%, 1);
+  --clr-secondary-400: hsl(241, 81%, 54%);
+  --clr-secondary-500: hsla(241, 72%, 46%, 0);
+
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-neutral-200: hsl(221, 100%, 96%);
+  --clr-neutral-300: hsl(241, 100%, 89%);
+  --clr-neutral-700: hsl(224, 30%, 27%);
+
+  --clr-red: hsl(0, 100%, 67%);
+  --clr-yellow: hsl(39, 100%, 56%);
+  --clr-green: hsl(166, 100%, 37%);
+  --clr-blue: hsl(234, 85%, 45%);
+
+  /* --fs-default: 1.125rem; */
+}
