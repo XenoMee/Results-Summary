@@ -127,6 +127,7 @@ body {
   --content-padding: 2.5rem;
 
   max-width: 46rem;
+  display: grid;
 }
 
 .results,
