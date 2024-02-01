@@ -81,3 +81,7 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
+
+body {
+  min-height: 100svh;
+}
