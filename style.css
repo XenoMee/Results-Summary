@@ -158,3 +158,9 @@ body {
   aspect-ratio: 1 /1;
   border-radius: 50%;
 }
+
+.result-score span {
+  font-size: var(--fs-900);
+  font-weight: var(--fw-dark);
+  color: var(--clr-neutral-100);
+}
