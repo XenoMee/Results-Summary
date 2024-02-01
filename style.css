@@ -174,11 +174,16 @@ body {
   align-items: center;
   border-radius: 0.5rem;
   padding: 1rem;
-  background-color: hsl(var(--item-color), 0.2);
+  background-color: hsl(var(--item-color), 0.1);
 }
 
 .summary-item svg {
-  stroke: red;
+  stroke: hsl(var(--item-color));
+}
+
+.summary-item-title {
+  color: hsl(var(--item-color));
+  font-weight: var(--fw-bold);
 }
 
 .summary-item[data-item-type="accent-1"] {
