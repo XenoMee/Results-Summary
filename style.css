@@ -18,15 +18,15 @@
   --clr-neutral-hsl-300: 241, 100%, 89%;
   --clr-neutral-hsl-700: 224, 30%, 27%;
 
-  --clr-primary-400: hsl(252, 100%, 67%);
-  --clr-primary-500: hsla(256, 72%, 46%, 1);
-  --clr-secondary-400: hsl(241, 81%, 54%);
-  --clr-secondary-500: hsla(241, 72%, 46%, 0);
+  --clr-primary-400: hsl(var(--clr-primary-hsl-400));
+  --clr-primary-500: hsla(var(--clr-primary-hsl-500));
+  --clr-secondary-400: hsl(var(--clr-secondary-hsl-400));
+  --clr-secondary-500: hsla(var(--clr-secondary-hsl-500));
 
-  --clr-neutral-100: hsl(0, 0%, 100%);
-  --clr-neutral-200: hsl(221, 100%, 96%);
-  --clr-neutral-300: hsl(241, 100%, 89%);
-  --clr-neutral-700: hsl(224, 30%, 27%);
+  --clr-neutral-100: hsl(var(--clr-neutral-hsl-100));
+  --clr-neutral-200: hsl(var(--clr-neutral-hsl-200));
+  --clr-neutral-300: hsl(var(--clr-neutral-hsl-300));
+  --clr-neutral-700: hsl(var(--clr-neutral-hsl-700));
 
   --clr-accent-1: hsl(0, 100%, 67%);
   --clr-accent-2: hsl(39, 100%, 56%);
