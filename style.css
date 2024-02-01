@@ -28,10 +28,10 @@
   --clr-neutral-300: hsl(var(--clr-neutral-hsl-300));
   --clr-neutral-700: hsl(var(--clr-neutral-hsl-700));
 
-  --clr-accent-1: hsl(0, 100%, 67%);
-  --clr-accent-2: hsl(39, 100%, 56%);
-  --clr-accent-3: hsl(166, 100%, 37%);
-  --clr-accent-4: hsl(234, 85%, 45%);
+  --clr-accent-1: 0, 100%, 67%;
+  --clr-accent-2: 39, 100%, 56%;
+  --clr-accent-3: 166, 100%, 37%;
+  --clr-accent-4: 234, 85%, 45%;
 
   --gradient-primary: linear-gradient(
     var(--clr-primary-400),
