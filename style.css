@@ -123,6 +123,7 @@ body {
 
 .results-summary {
   --border-radius: 2rem;
+  --content-padding: 2.5rem;
 }
 
 .results {
