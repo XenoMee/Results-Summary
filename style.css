@@ -89,3 +89,9 @@ body {
   font-size: var(--fs-400);
   color: var(--clr-neutral-700);
 }
+
+/* Typography */
+.section-title {
+  font-weight: var(--fw-bold);
+  font-size: var(--fs-600);
+}
