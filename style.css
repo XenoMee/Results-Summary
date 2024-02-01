@@ -138,16 +138,6 @@ body {
   border-radius: 0 0 var(--border-radius) var(--border-radius);
 }
 
-.grid-flow {
-  display: grid;
-  align-items: start;
-  gap: 1rem;
-}
-
-.grid-flow[data-spacing="large"] {
-  gap: 2rem;
-}
-
 .circle {
   display: grid;
   place-content: center;
@@ -170,4 +160,20 @@ body {
   color: var(--clr-neutral-100);
   font-size: var(--fs-600);
   font-weight: var(--fw-dark);
+}
+
+.summary-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Utility classes */
+.grid-flow {
+  display: grid;
+  align-items: start;
+  gap: 1rem;
+}
+
+.grid-flow[data-spacing="large"] {
+  gap: 2rem;
 }
