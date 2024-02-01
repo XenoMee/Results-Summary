@@ -234,4 +234,8 @@ body {
     display: grid;
     place-items: center;
   }
+
+  .results-summary {
+    grid-template-columns: 1fr 1fr;
+  }
 }
