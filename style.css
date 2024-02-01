@@ -124,7 +124,7 @@ body {
 /* Layout */
 .results-summary {
   --border-radius: 2rem;
-  --content-padding: 2.5rem;
+  --content-padding: 2.3rem;
 
   max-width: 46rem;
   display: grid;
