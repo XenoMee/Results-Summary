@@ -174,11 +174,15 @@ body {
   align-items: center;
   border-radius: 0.5rem;
   padding: 1rem;
-  background-color: aquamarine;
+  background-color: hsl(var(--item-color), 0.2);
 }
 
 .summary-item svg {
   stroke: red;
+}
+
+.summary-item[data-item-type="accent-1"] {
+  --item-color: var(--clr-accent-1);
 }
 
 /* Utility classes */
