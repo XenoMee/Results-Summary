@@ -110,3 +110,7 @@ body {
 .button:is(:hover, :focus) {
   background: var(--gradient-primary);
 }
+
+.results-summary {
+  --border-radius: 2rem;
+}
