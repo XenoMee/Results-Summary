@@ -49,3 +49,10 @@
   --fs-800: 2rem;
   --fs-900: 5rem;
 }
+
+/* Use a more-intuitive box-sizing model */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
