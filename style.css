@@ -165,3 +165,9 @@ body {
   font-weight: var(--fw-dark);
   color: var(--clr-neutral-100);
 }
+
+.result-rank {
+  color: var(--clr-neutral-100);
+  font-size: var(--fs-600);
+  font-weight: var(--fw-dark);
+}
