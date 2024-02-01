@@ -160,6 +160,7 @@ body {
 }
 
 .result-score span {
+  display: block;
   font-size: var(--fs-900);
   font-weight: var(--fw-dark);
   color: var(--clr-neutral-100);
