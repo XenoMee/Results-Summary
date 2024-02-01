@@ -237,5 +237,11 @@ body {
 
   .results-summary {
     grid-template-columns: 1fr 1fr;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+  }
+
+  .results {
+    border-radius: var(--border-radius);
   }
 }
