@@ -33,5 +33,5 @@
     var(--clr-secondary-500)
   );
 
-  /* --fs-default: 1.125rem; */
+  --font-family-default: "HankenGrotesk";
 }
