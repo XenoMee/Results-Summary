@@ -104,5 +104,5 @@ body {
   line-height: 1;
   border-radius: 2rem;
   border: none;
-  /* cursor: pointer; */
+  cursor: pointer;
 }
