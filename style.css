@@ -130,15 +130,11 @@ body {
   display: grid;
 }
 
-.results,
-.summary {
-  padding: var(--content-padding);
-}
-
 .results {
   background: var(--gradient-primary);
   color: hsl(var(--clr-neutral-hsl-100), 0.7);
   text-align: center;
+  padding: var(--content-padding) calc(var(--content-padding) * 1.5);
   border-radius: 0 0 var(--border-radius) var(--border-radius);
 }
 
@@ -169,6 +165,10 @@ body {
 .summary-list {
   list-style: none;
   padding: 0;
+}
+
+.summary {
+  padding: var(--content-padding);
 }
 
 .summary-item {
