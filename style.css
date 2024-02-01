@@ -15,5 +15,15 @@
   --clr-green: hsl(166, 100%, 37%);
   --clr-blue: hsl(234, 85%, 45%);
 
+  --gradient-primary: linear-gradient(
+    var(--clr-primary-400),
+    var(--clr-secondary-400)
+  );
+
+  --gradient-to-transparent: linear-gradient(
+    var(--clr-primary-500),
+    var(--clr-secondary-500)
+  );
+
   /* --fs-default: 1.125rem; */
 }
