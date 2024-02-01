@@ -33,5 +33,11 @@
     var(--clr-secondary-500)
   );
 
+  /* Font family */
   --font-family-default: "HankenGrotesk";
+
+  /* Font weight */
+  --fw-regular: 500;
+  --fw-bold: 700;
+  --fw-dark: 800;
 }
