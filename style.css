@@ -147,3 +147,11 @@ body {
 .grid-flow[data-spacing="large"] {
   gap: 2rem;
 }
+
+.circle {
+  width: 12rem;
+  margin-inline: auto;
+  background: var(--gradient-to-transparent);
+  aspect-ratio: 1 /1;
+  border-radius: 50%;
+}
