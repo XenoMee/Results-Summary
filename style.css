@@ -199,6 +199,15 @@ body {
   --item-color: var(--clr-accent-4);
 }
 
+.summary-score {
+  font-weight: var(--fw-dark);
+  color: hsl(var(--clr-neutral-hsl-700), 0.5);
+}
+
+.summary-score span {
+  color: var(--clr-neutral-700);
+}
+
 /* Utility classes */
 .grid-flow {
   display: grid;
