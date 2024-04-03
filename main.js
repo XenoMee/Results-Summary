@@ -9,7 +9,7 @@ fetch('data.json')
           <img src="${item.icon}" alt="">
           <h3 class="summary-item-title">${item.category}</h3>
         </div>
-        <p class="summary-score"><span>${item.score}</span>/100</p>
+        <p class="summary-score"><span>${item.score} </span>/100</p>
       </li>
         `;
       })
